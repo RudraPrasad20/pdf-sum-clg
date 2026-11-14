@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+:root {
+  --background: #09090b;
+  --foreground: #f4f4f5;
+}
+
+* { box-sizing: border-box; }
+
+html { color-scheme: dark; }
+
+body {
+  background:
+    radial-gradient(ellipse at 50% -20%, rgba(59, 130, 246, 0.16), transparent 48%),
+    var(--background);
+  color: var(--foreground);
+  min-height: 100vh;
+}
+
+::selection { background: rgba(59, 130, 246, 0.35); }
